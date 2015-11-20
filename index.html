@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>Playground</title>
-		<link rel="shortcut icon" href="../favicon.ico">
+		<meta property="og:title" content="我要真遊樂場！">
+		<meta property="og:type" content="article">
+		<meta property="og:image" content="">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" content="">
+		<meta name="twitter:title" content="我要真遊樂場！">
+		<meta name="twitter:description" content="">
+		<meta name="twitter:domain" content="theinitium.com">
+		<meta name="twitter:site" content="@initiumnews">
+		<meta name="twitter:creator" content="@initiumnews">
+		<meta name="twitter:image:src" content="">
+		<title>我要真遊樂場！ | 端傳媒 Initium Media</title>
+		<link rel="shortcut icon" href="https://d3rhr7kgmtrq1v.cloudfront.net/static/img/favicon.ico">
 		<link href="http://vjs.zencdn.net/5.0.0/video-js.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="./css/all.css" />
 		<script src="./js/lib/snap.svg-min.js"></script>
@@ -24,35 +35,53 @@
 			</div>
 			<div class="content clearfix">
 				<img id="logo" src="./images/logo.svg" onerror="this.onerror=null; this.src='./images/logo.png'" alt="端傳媒 | Initium Media" />
-				<a href="#" class="menu-button"></a>
-				<p class="title">我要真遊樂場！<span class="desktop-only"> - 執藥式公園、啤製式童年</span></p>
+				<a href="#" class="menu-button">
+					<span class="sp sp-menu"></span>
+				</a>
+				<p class="title">我要真遊樂場！</p>
 				<div class="right">
 					<a href="https://www.facebook.com/sharer.php?s=100&amp;u=#" onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=no,height=368,width=600'); return false;" title="分享到 facebook" class="sp sp-menu-facebook">Facebook</a>
 					<a  href="https://twitter.com/share?url=#&amp;text=我要真遊樂場！－執藥式公園，啤製式童年&amp;via=initiumnews" onclick="javascript:window.open(this.href,'','menubar=no,toolbar=no,resizable=yes,scrollbars=no,height=400,width=600'); return false;" title="分享到 twitter" class="sp sp-menu-twitter">Twitter</a>
-					<a href="#">繁體中文</a><span>｜</span>
-					<a href="#">簡體中文</a>
+					<div class="desktop-only">
+						<a href="#">繁體中文</a><span>｜</span>
+						<a href="#">簡體中文</a>
+					</div>
+					<div class="mobile-only">
+						<a href="#">簡</a>
+					</div>
 				</div>
 				<ul class="menu">
 					<li>
-						<a href="#article-1-1" class="pt1"><span class="sp sp-menu-line1 desktop-only"></span>教人——忍鞦韆韆只、一樣的滑梯<span class="sp sp-menu-arrow"></span></a>
+						<a href="#article-1-0" class="pt1"><span class="number">1.</span>執藥式公園、倒模式童年<span class="sp sp-menu-arrow"></span></a>
 						<ul class="clearfix">
-							<li><a href="#article-1-2" class="blue w-sep"><span class="number">1.1</span>費族一石加來日數般點但溫？</a></li>
-							<li><a href="#article-1-2" class="red w-sep"><span class="number">1.2</span>費族一石加般點</a></li>
-							<li><a href="#article-1-3" class="green"><span class="number">1.3</span><span class="sp sp-menu-1-3"></span>費族一石加來但溫好晚？</a></li>
-							<li><a href="#article-1-4" class="turquoise w-sep"><span class="number">1.4</span>費族一石加來日數般</a></li>
-							<li><a href="#article-1-5" class="yellow w-sep"><span class="number">1.5</span>來日數般點但溫好晚升</a></li>
-							<li><a href="#article-1-6" class="blue w-sep"><span class="number">1.6</span>費族一石加來般點但溫好</a></li>
-							<li><a href="#article-1-7" class="pink"><span class="number">1.7</span>費族一石加來日、數般</a></li>
-							<li><a href="#article-1-8" class="red w-sep"><span class="number">1.8</span>費族一石加來、數般點但溫</a></li>
-							<li><a href="#article-1-9" class="turquoise"><span class="number">1.9</span><span class="sp sp-menu-1-9"></span>費族一石加來日、數般點但溫好晚</a></li>
+
+							<li><a href="#article-1-1" class="blue"><span class="number">1.1</span>遊樂場的主角（小朋友）在哪裡？</a></li>
+							<li><a href="#article-1-1" class="green desktop-only"><span class="number">1.2</span><span class="sp sp-menu-1-3"></span>從沙池看管理</a></li>
+							<li><a href="#article-1-2" class="green mobile-only"><span class="number">1.2</span><span class="sp sp-menu-1-3"></span>從沙池看管理</a></li>
+
+							<!-- <li><a href="#article-1-3" class="green"><span class="number">1.3</span><span class="sp sp-menu-1-3"></span>可以給孩子一個沙池嗎？</a></li> -->
+							<li><a href="#article-1-4" class="yellow "><span class="number">1.3</span>當限制成為理所當然</a></li>
+							<li><a href="#article-1-5" class="red"><span class="number">1.4</span>一個投訴滅絕一個物種</a></li>
+							<li><a href="#article-1-6" class="blue"><span class="number">1.5</span>「香港家長一定不能﹗」</a></li>
+							<li><a href="#article-1-7" class="pink last"><span class="number">1.6</span>香港公園事件：還我長滑梯</a></li>
+							<!-- <li><a href="#article-1-8" class="turquoise"><span class="number">1.8</span><span class="sp sp-menu-1-9"></span>大世界遊樂場</a></li> -->
 						</ul>
 					</li>
-					<li>
-						<a href="#article-2-0" class="pt2"><span class="sp sp-menu-line2 desktop-only"></span>教人——忍鞦韆只分籃、一樣的滑梯<span class="sp sp-menu-arrow"></span></a>
+					<!-- <li>
+						<a href="#article-2-0" class="pt2"><span class="sp sp-menu-line2 desktop-only"></span><span class="number">2.</span>副稿——怎樣的遊樂場，有怎樣的孩子<span class="sp sp-menu-arrow"></span></a>
 						<ul class="clearfix">
-							<li><a href="#article-2-1" class="yellow w-sep"><span class="number">2.1</span><span class="sp sp-menu-2-1"></span>費族一石好晚升</a></li>
-							<li><a href="#article-2-2" class="blue"><span class="number">2.2</span><span class="sp sp-menu-2-2"></span>費族一石加來日數般點但溫？</a></li>
+							<li><a href="#article-1-9" class="yellow"><span class="number">2.1</span><span class="sp sp-menu-2-1"></span>大世界遊樂場</a></li>
+							<li><a href="#article-2-1" class="blue"><span class="number">2.1</span><span class="sp sp-menu-2-2"></span>香港有不一樣的遊樂場嗎？</a></li>
 						</ul>
+					</li> -->
+					<li>
+						<a href="#article-1-8" class="pt2"><span class="number">2.</span><!-- <span class="sp sp-menu-1-9"></span> -->大世界遊樂場<span class="sp sp-menu-arrow"></span></a>
+					</li>
+					<li>
+						<a href="#article-2-0" class="pt2"><span class="number">3.</span>怎樣的遊樂場，有怎樣的孩子<span class="sp sp-menu-arrow"></span></a>
+					</li>
+					<li>
+						<a href="#article-2-1" class="pt2"><span class="number">4.</span><!-- <span class="sp sp-menu-2-2"></span> -->香港有不一樣的遊樂場嗎？<span class="sp sp-menu-arrow"></span></a>
 					</li>
 				</ul>
 			</div>
@@ -63,176 +92,304 @@
 			</div><!-- /container -->
 			<div class="container" id="page-2">
 				<div class="video">
-	              <video id="video_1" class="video-js vjs-fullscreen">
+	              <video id="video_1" class="video-js vjs-fullscreen" poster="./images/2x/video1_ph.jpg">
 	                  <source src=""  type="video/mp4">
 	              </video>
 	              <div class="intro">
 	              	<div class="wrapper">
-	            		<p>鞦韆（只分籃形和非籃形）、一樣成「常餐」、「快餐」和「特餐」標準化元素，教人忍鞦韆（只分籃形和非籃形）、一樣的滑梯（只分轉彎和不轉彎的、一樣的塑料，和一樣的地墊。那些已經幻化成「常餐」、「快餐」和「特餐」標準化元素，教人忍</p>
-	            		<p>鞦韆（只分籃形和非籃形）、一樣的滑梯（只分轉彎和不轉彎的、一樣的塑料，和一樣的地墊。那些已經幻化成「常餐」、「快餐」和「特餐」標準化元素，教人忍</p>
-	            		<p>如果一個七、八歲的孩子告訴你「遊樂場很無聊」，然搬</p>
+						<p>香港孩子對本地公共遊樂場的公式最熟悉不過了，單單是滑梯，質感顏色高度斜度和滑度，閉上眼都能認出。它們不斷複製相同的遊戲經驗，除了方便管理、低成本、極低的風險系數外，還揭示了社會對孩子的什麼想像？抑或零想像？</p>
+						<p>《端傳媒》採訪中外遊樂場專家、園境設計師和政府部門，當然還有遊樂場的主角──孩子，嘗試把小朋友的需要重置到遊樂場設計中，開啟「我要真遊樂場」的討論。</p>
+						<p>畢竟，遊樂場上怎能沒孩子？</p>
 	            		<div class="anchor-wrapper">
-			            	<a href="#" class="start-link sp sp-start" id="start_video">開始討論 > </a>
-			            	<a href="#" class="sp sp-replay" id="replay_video">翻看影片 > </a>
+			            	<a href="#" class="sp sp-replay desktop-only" id="replay_video">翻看影片 > </a>
+			            	<a href="#" class="start-link sp sp-start" id="start_video">往下閱讀</a>
 	            		</div>
 	                </div>
 	              </div>
-	              <a href="#" class="skip-link sp sp-skip" id="skip_video">Skip ></a>
+	              <a href="#" class="skip-link sp sp-skip desktop-only" id="skip_video">Skip ></a>
 	            </div>
 	            <div id="long_content">
-	            	<div id="article-1-1">
+	            	<div id="article-1-0">
 	            		<article class="content">
-	            			<h1><img class="desktop-only" src="./images/1x/part1-title.png" alt=""><img class="mobile-only" src="./images/2x/title-part1.png" alt=""></h1>
-	            			<p class="intro">如果一個七、八歲的孩子告訴你「遊樂場很無聊」，然後埋首手機遊戲，請不要驚訝，這正正是大人有份種下的因。除了極少數例外，香港的公共遊樂	場一律有着一樣的鞦韆（只	分籃形和非籃形）、一樣的滑梯（只分轉彎和不轉彎的）、一樣的攀爬組合（哪個位置裝梯子哪兒有柱子你都猜中了）、一樣的塑料，和一樣的地	墊。那些已經幻化成「常餐」、「快餐」和「特餐」標準化元素，教人忍不住搬出麥兜語錄──</p>
-	            			<!-- <img class="quote" src="./images/part1-quote.png" alt=""> -->
-	            			<div class="img-wrapper">
-	            				<img src="./images/article/img_1.png">
-	            				<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
+	            			<h1 class="sp-title sp-title-part1">執藥式公園、倒模式童年
+	            				<!-- <img class="responsive-img" src="./images/2x/title-part1.png" data-responsimg-desktop="./images/1x/part1-title.png" alt="執藥式公園、倒模式童年"> -->
+	            			</h1>
+							<p>如果七、八歲的孩子告訴你「遊樂場很無聊」，然後埋首手機遊戲，請不要驚訝，這正正是大人有份種下的因。</p>
+							<p>除了極少數例外，香港的公共遊樂場一律有一樣的鞦韆（只能前後擺動的單人鞦韆）、一樣的滑梯（高一點點都被拆下了）、一樣的攀爬組合（哪個位置裝梯子哪兒有柱子，孩子都猜得中）、一樣的塑料設施和一樣的保護地墊。那些已經幻化成「常餐」、「快餐」和「特餐」標準化元素，教人忍不住搬出麥兜語錄──</p>
+	            			<img class="quote responsive-img" src="./images/2x/part1-quote.png" data-responsimg-desktop="./images/1x/part1-quote.png" alt="「嚟嚟去去有啲肉有啲菜撈埋撈埋打個生粉芡上去嗰啲嘢咁囉」。">
+							<p>遊樂環境顧問袁漢昌叫這些做「執藥式」遊樂場，那些「藥」來自供應商重重複複的組件。「這裏執幾件，那裏執幾件，看來很多，其實一樣。」他說：「但遊樂場不該只是執藥。」</p>
+	            			<div class="img-wrapper block-img">
+	            				<a href="./images/article/img_1.jpg" class="gallery" title="袁漢昌：為孩子的遊樂權益發聲">View Image</a>
+	            				<img src="./images/article/img_1.jpg">
+	            				<p class="img-caption"><span class="sp sp-img-caption"></span>袁漢昌：為孩子的遊樂權益發聲</p>
 	            			</div>
-	            			<p>如果一個七、八歲的孩子告訴你「遊樂場很無聊」，然後埋首手機遊戲，請不要驚訝，這正正是大人有份種下的因。除了極少數例外，香港的公共遊樂場一律有着一樣的	鞦韆（只	分籃形和非籃形）、一樣的滑梯（只分轉彎和不轉彎的）、一樣的攀爬組合（哪個位置裝梯子哪兒有柱子你都猜中了）、一樣的塑料，和一樣的地墊。那些已經幻	化成「常餐」、「快餐」和「特餐」標準化元素，教人忍不住搬出麥兜語錄──</p>
-	            			<p>如果一個七、八歲的孩子告訴你「遊樂場很無聊」，然後埋首手機遊戲，請不要驚訝，這正正是大人有份種下的因。除了極少數例外，香港的公共遊樂場一律有着一樣的	鞦韆（只	分籃形和非籃形）、一樣的滑梯（只分轉彎和不轉彎的）、一樣的攀爬組合（哪個位置裝梯子哪兒有柱子你都猜中了）、一樣的塑料，和一樣的地墊。那些已經幻	化成「常餐」、「快餐」和「特餐」標準化元素，教人忍不住搬出麥兜語錄──</p>
+	            			<p>他服務的智樂兒童遊樂場協會是爭取兒童遊戲權利的非政府機構，認為遊戲是成長必需，所以遊樂場的價值從不止於啟發學習，更不該只是給孩子「放電」而已。</p>
+		            		<span class="sp sp-clip"></span>
 	            		</article>
 	            	</div>
-	            	<div  id="article-1-2">
+	            	<div id="article-1-1">
 					<article class="content columns clearfix">
 						<div class="column">
-	            			<div class="title-red"><h2><span class="number">1.1</span>教人忍不住搬出麥兜語錄</h2></div>
-	            			<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            			<p class="highlight-red">皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            			<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+	            			<div class="title-red"><h2><span class="number">1.1</span>遊樂場的主角（小朋友）在哪裡？</h2></div>
+	            			<p>遊戲是兒童權利──這句話聽來理所當然，但在香港原來是要捍衛的。袁漢昌感受最深的經驗，來自他曾經參與的政府工程項目會議。</p>
+	            			<p class="highlight-blue2">「與會者（作為用戶及管理者的康文署和房屋署，設計者的建築署，及園境設計師等）會討論用色和結構好不好看？與周邊環境是否配合？裝置是否安全？完全略去我們最該問的：這個社區的孩子需要怎樣的遊樂場？這樣設計孩子會否覺得好玩？」</p>
+	            			<p>當安全第一、減少投訴、設施耐用可替換等，成為主要考慮因素，點選現成組件便最省事，甚至已成慣性。「稍有不同的提議很輕易就被擱下，哪怕只有一人提出質疑。」袁漢昌說。</p>
 						</div>
-						<div class="column">
-	            			<div class="title-red"><h2><span class="number">1.2</span>教人忍不住搬出麥兜語錄</h2></div>
-	            			<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            			<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+						<div class="column" id="article-1-2">
+	            			<div class="title-red"><h2><span class="number">1.2</span>從沙池看管理</h2></div>
+	            			<p>譬如，沙池。在遊樂環境顧問眼中，沙池有很高的遊樂價值。沙本身是有趣的感官體驗，可塑性高，加點水便有不同質感，大小朋友都能從中創作和耍樂。所以袁漢昌一有機會便建議沙池，但得到的回應令人沮喪──</p>
 						</div>
 					</article>
 					</div>
 					<!-- <div class="dots-hr"></div> -->
 					<div id="article-1-3">
 						<article class="content clearfix">
-	            			<h3><img class="desktop-only" src="./images/1x/title-1-3-2.png"><img class="mobile-only" src="./images/2x/title-1-3-2.png"></h3>
-	            			<div class="img-wrapper block-img-wrapper">
-	            				<img class="desktop-only" src="./images/1x/sandpool/discussion.png">
-	            				<img class="mobile-only" src="./images/2x/sandpool/discussion.png">
-	            				<img class="click-img desktop-only img-1" src="./images/1x/sandpool/dirty-2.png">
-	            				<img class="click-img desktop-only img-2" src="./images/1x/sandpool/dog-2.png">
-	            				<img class="click-img desktop-only img-3" src="./images/1x/sandpool/glass-bottle-2.png">
-	            				<img class="click-img desktop-only img-4" src="./images/1x/sandpool/windy-2.png">
-	            				<img class="click-img mobile-only img-1" src="./images/2x/sandpool/dirty-2.png">
-	            				<img class="click-img mobile-only img-2" src="./images/2x/sandpool/dog-2.png">
-	            				<img class="click-img mobile-only img-3" src="./images/2x/sandpool/glass-bottle-2.png">
-	            				<img class="click-img mobile-only img-4" src="./images/2x/sandpool/windy-2.png">
+	            			<h3 class="sp-title sp-title-1-3-2">可以給孩子一個沙池嗎？<!-- <img class="responsive-img" src="./images/2x/title-1-3-2.png" data-responsimg-desktop="./images/1x/title-1-3-2.png" alt="可以給孩子一個沙池嗎？"> --></h3>
+	            			<div id="sandpool" class="img-wrapper block-img-wrapper">
+	            				<img class="discussion-img responsive-img" src="./images/2x/sandpool/discussion-bg.jpg" data-responsimg-desktop="./images/1x/sandpool/discussion-bg.jpg">
+	            				<div class="click-img on sp-p sp-p-discussion-1"></div>
+	            				<div class="click-img q sp-p sp-p-dirty-2"></div>
+	            				<div class="click-img q sp-p sp-p-windy-2"></div>
+	            				<div class="click-img q sp-p sp-p-dog-2"></div>
+	            				<div class="click-img q sp-p sp-p-glass-bottle-2"></div>
+	            				<!-- <img class="click-img responsive-img img-1" src="./images/2x/sandpool/dirty-2.png" data-responsimg-desktop="./images/1x/sandpool/dirty-2.png">
+	            				<img class="click-img responsive-img img-2" src="./images/2x/sandpool/dog-2.png" data-responsimg-desktop="./images/1x/sandpool/dog-2.png">
+	            				<img class="click-img responsive-img img-3" src="./images/2x/sandpool/glass-bottle-2.png" data-responsimg-desktop="./images/1x/sandpool/glass-bottle-2.png">
+	            				<img class="click-img responsive-img img-4" src="./images/2x/sandpool/windy-2.png" data-responsimg-desktop="./images/1x/sandpool/windy-2.png"> -->
 	
-	            				<a href="#" class="dirty" data-img="1">
-	            					<img class="hover-img desktop-only" src="./images/1x/sandpool/dirty.png">
-	            					<img class="hover-img mobile-only" src="./images/2x/sandpool/dirty.png">
+	            				<a href="#" class="dirty scaling" data-img="sp-p-dirty-2">
+	            					<!-- <img class="responsive-img" data-responsimg-desktop="./images/1x/sandpool/dirty-1.png">
+	            					<img class="hover-img responsive-img" data-responsimg-desktop="./images/1x/sandpool/dirty.png" src="./images/2x/sandpool/dirty.png"> -->
+	            					<span class="sp-p sp-p-dirty-1"></span>
 	            				</a>
-	            				<a href="#" class="dog" data-img="2">
-	            					<img class="hover-img desktop-only" src="./images/1x/sandpool/dog.png">
-	            					<img class="hover-img mobile-only" src="./images/2x/sandpool/dog.png">
+	            				<a href="#" class="dog scaling" data-img="sp-p-dog-2">
+	            					<!-- <img class="responsive-img" data-responsimg-desktop="./images/1x/sandpool/dog-1.png">
+	            					<img class="hover-img responsive-img" data-responsimg-desktop="./images/1x/sandpool/dog.png" src="./images/2x/sandpool/dog.png"> -->
+	            					<span class="sp-p sp-p-dog-1"></span>
 	            				</a>
-	            				<a href="#" class="glass-bottle" data-img="3">
-	            					<img class="hover-img desktop-only" src="./images/1x/sandpool/glass-bottle.png">
-	            					<img class="hover-img mobile-only" src="./images/2x/sandpool/glass-bottle.png">
+	            				<a href="#" class="glass-bottle scaling" data-img="sp-p-glass-bottle-2">
+	            					<!-- <img class="responsive-img" data-responsimg-desktop="./images/1x/sandpool/glass-bottle-1.png">
+	            					<img class="hover-img responsive-img" data-responsimg-desktop="./images/1x/sandpool/glass-bottle.png" src="./images/2x/sandpool/glass-bottle.png"> -->
+	            					<span class="sp-p sp-p-glass-bottle-1"></span>
 	            				</a>
-	            				<a href="#" class="windy" data-img="4">
-	            					<img class="hover-img desktop-only" src="./images/1x/sandpool/windy.png">
-	            					<img class="hover-img mobile-only" src="./images/2x/sandpool/windy.png">
+	            				<a href="#" class="windy scaling" data-img="sp-p-windy-2">
+	            					<!-- <img class="responsive-img" data-responsimg-desktop="./images/1x/sandpool/windy-1.png">
+	            					<img class="hover-img responsive-img" data-responsimg-desktop="./images/1x/sandpool/windy.png" src="./images/2x/sandpool/windy.png"> -->
+	            					<span class="sp-p sp-p-windy-1"></span>
 	            				</a>
-	            				<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
+	            				<!-- <p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p> -->
 	            			</div>
 							<div class="block-column">
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：</p>
-	            				<p>水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首	詩，辦土管不，樹果友位是動不長體，和人這去的先看文		在一處？到總又；樣平對計上一老女：種懷童分他小未！家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。</p>
-	            				<p>腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+								<p>某次與會者還說，香港沙灘多，所以公園不需要沙池。「他可能不知道，基層家長帶孩子去一趟沙灘多不容易。」袁漢昌說。</p>
+								<p>《端傳媒》去信康樂及文化事務署查詢設置沙池和水池的考慮，對方回覆：「本署對於在兒童遊樂場提供水及沙等遊戲設施持開放態度，並會積極研究將不同的元素融入於兒童遊樂設施之中。」</p>
+								<p>現時康文署轄下約有七百個戶外兒童遊樂場，設有沙池的只有香港公園一個，至於哪個公園能玩水？官方回覆是「在石澳泳灘有一套遊戲組合設於沙灘之上。」</p>
+								<p>建築署高級建築師陳志威則指出，該署按用戶部門要求提供設施，過程中會了解後者在運作和管理方面的意見，草擬初步方案後諮詢區議會。</p>
+								<p>他指出遊樂設施必須符合國際標準，不能為刺激而犧牲安全。但同樣遵照國際標準的海外遊樂場，為何又能保留遊樂經驗的多樣性？陳志威否認本地遊樂經驗單調，但就指出署方確實受限於供應商的提供，至於可否主動要求不同款式又或者度身訂造，他的回覆是「建築署不會開發設施，亦不是（遊樂場）項目的倡議者」。</p>
+								<p>那麼，設置沙池又難在哪裏？陳志威答：「香港很多地方都有沙池，譬如沙田和屯門。」但它們都拆除多年了。</p>
 							</div>
 							<div class="dots-hr"></div>
+	            			<div class="img-wrapper block-img-big">
+	            				<a href="./images/article/img_10.jpg" class="gallery">View Image</a>
+            					<img src="./images/article/img_10.jpg"><!--WKH_9468.png-->
+	            				<!-- <p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p> -->
+	            			</div>
 						</article>
 					</div>
 					<div id="article-1-4">
 						<article class="content columns clearfix">
-            				<div class="title-red"><h2><span class="number">1.4</span>教人忍不住搬出麥兜語錄</h2></div>
+            				<div class="title-red"><h2><span class="number">1.3</span>當限制成為理所當然</h2></div>
 							<div class="column">
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣	子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，	樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+								<p>「其實業界也有有心人，但勢孤力弱。」袁漢昌說：「我們要做的，是一起為小朋友發聲。」</p>
+								<p>他口中其中一位有心人，是香港園境設計師學會副會長、香港高等科技教育學院設計學院助理教授陳元敬，我在一個發布設計學院學生得獎消息的記者會上跟他見面。那是「共融遊樂場概念設計比賽」，香港第一個針對遊樂場設計的比賽。</p>
 	            				<div class="img-wrapper">
-	            					<img src="./images/article/img_2.png">
-	            					<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
+	            					<a href="./images/article/img_2.jpg" class="gallery" title="陳元敬：公共空間限制多多，最後變成為管理者設計，而不是市民用家。">View Image</a>
+	            					<img src="./images/article/img_2.jpg" />
+	            					<p class="img-caption"><span class="sp sp-img-caption"></span>陳元敬：公共空間限制多多，最後變成為管理者設計，而不是市民用家。</p>
 	            				</div>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣	子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，	樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文		在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文		在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+	            				<p>會上，得獎學生分享了很多有趣意念，但被問及設計中為何沒鞦韆時，學生的回應竟然是「安全考慮」。</p>
+	            				<p>後來我跟陳元敬提起，他說：「有些想法確實入了腦──學生覺得危險，繼而失去反思，但設計師最重要的是反思，反思自己創造出來的空間其實意義何在？」</p>
 							</div>
 							<div class="column">
-	            				<div class="img-wrapper">
-	            					<img src="./images/article/img_3.png">
-	            					<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
+	            				<div class="img-wrapper img-top">
+	            					<a href="./images/article/img_3.jpg" class="gallery" title="「共融遊樂場概念設計比賽」很多得獎作品都展現了令人興奮的設計意念，但香港小朋友暫時只能望梅止渴。">View Image</a>
+	            					<img src="./images/article/img_3.jpg" />
 	            				</div>
-	            				<div class="img-wrapper">
-	            					<img src="./images/article/img_4.png">
-	            					<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
+	            				<div class="img-wrapper img-bottom">
+	            					<a href="./images/article/img_4.jpg" class="gallery">View Image</a>
+	            					<img src="./images/article/img_4.jpg" />
+	            					<p class="img-caption"><span class="sp sp-img-caption"></span>「共融遊樂場概念設計比賽」很多得獎作品都展現了令人興奮的設計意念，但香港小朋友暫時只能望梅止渴。</p>
 	            				</div>
-	            				<p class="highlight-blue2">皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關	和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上	文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣	子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，	樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+	            				<p class="highlight-blue2">「今日的遊樂場高度講究安全，但帶挑戰性的遊樂設施，也是孩子發掘自我能力，學習風險評估的重要一環，是小朋友成長的一部分，不能拿走。」</p>
+	            				<p>「對於公共空間，年輕人在香港從沒見過多少好東西，這很糟糕。我們這輩尚可回憶小時候在公園自由自在踏單車，但新一代成長時都沒有這些經驗，周遭限制多多，反而覺得那些限制理所當然。」</p>
 							</div>
+	            		<hr class="dots-hr" />
+	            		<div class="img-wrapper block-img-big">
+	            			<a href="./images/article/img_8.jpg" class="gallery">View Image</a>
+	            			<img src="./images/article/img_8.jpg" /><!--WKH_9181.png-->
+	            			<!-- <p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p> -->
+	            		</div>
 						</article>
 					</div>
 					<div id="article-1-5">
 					<article class="content columns clearfix">
-            			<div class="title-red"><h2><span class="number">1.5</span>教人忍不住搬出麥兜語錄</h2></div>
+            			<div class="title-red"><h2><span class="number">1.4</span>一個投訴滅絕一個物種</h2></div>
 						<div class="column">
-	            			<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感小未！</p>
+	            			<p>可曾把這些思維帶進政府會議？「那是對牛彈琴，他們只會告訴你：會有投訴。」</p>
+	            			<p>陳元敬說了虎尾蘭的故事。園境設計師為公共空間挑選植物有很多制肘：落葉樹不要、果樹不要、長得太快的不要、打理工夫多的不要⋯⋯某次他們建議虎尾蘭。那是一種耐陰耐旱，活力很強的常綠草本植物。</p>
+	            			<p>但官員說，本區不歡迎虎尾蘭，因為曾經有一個家長，向區議會投訴葉子割腳。</p>
 	            			<div class="img-wrapper">
-	            				<img src="./images/article/img_5.png">
-	            				<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
+	            				<a href="./images/article/img_5.jpg" class="gallery" title="有問過小朋友想要怎樣的遊樂場嗎？康文署和建築署回覆，他們問過區議會。">View Image</a>
+	            				<img src="./images/article/img_5.jpg">
+	            				<p class="img-caption"><span class="sp sp-img-caption"></span>有問過小朋友想要怎樣的遊樂場嗎？康文署和建築署回覆，他們問過區議會。</p>
 	            			</div>
 						</div>
 						<div class="column">
-	            			<p>皮習一地。眼趣食族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            			<p class="highlight-blue2">皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+	            			<p class="highlight-blue2">「這正是我們社會的縮影，公園為何那麼多禁止標示？公共空間為何愈來愈多東西不能做？海濱為何不准放風箏？滑梯為什麼只有一個樣子？甚至沒地方玩沙玩水？其實都是同一道理。可能因為某時某人某個投訴，有些東西便告消失。大家是不是反應過敏了？」</p>
+	            			<p class="highlight-blue2">「那些是為管理者而做的設計，不是為小朋友。」陳元敬說。</p>
+	            			<p>「在現制度下，管理者有最大的話語權，最終可以拒收設施。要是管理者不同意的話，一個新設施根本不能出現。」</p>
+	            			<p>他引私人物業的設計流程來做對比：首先設計師為發展商規劃吸引用家的藍圖，建成後交予物業管理公司管理。「倘若在設計階段必須事事問准管理公司，很多設計根本不可能發生。遊樂場正正如是，不是先問用家（孩子）要什麼，而是先想怎樣的設計方便管理。」</p>
 						</div>
+						<div class="clearfix"></div>
+	            		<hr class="dots-hr">
+	            		<div class="img-wrapper block-img-big">
+	            			<a href="./images/article/img_9.jpg" class="gallery">View Image</a>
+            				<img src="./images/article/img_9.jpg"><!--WKH_8683.png-->
+	            			<!-- <p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p> -->
+	            		</div>
 					</article>
 					</div>
 					<div id="article-1-6">
 						<article class="content columns clearfix">
-            				<div class="title-red"><h2><span class="number">1.6</span>教人忍不住搬出麥兜語錄</h2></div>
+            				<div class="title-red"><h2><span class="number">1.5</span>「香港家長一定不能﹗」</h2></div>
 							<div class="column">
-	            				<p>皮習一地。眼趣食族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文		在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p class="highlight-blue2">皮習一地。眼趣食農於、費族一石加來日。</p>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣	子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，	樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+								<p>香港的遊樂場愈見單一，反觀鄰近新加坡的遊樂空間益發多彩，尤其是玩水設施。陳元敬曾經跟當地同業討論這個趨勢，「他們說，新加坡也經歷了一個過程。從前講求低風險，但近年銳意教育市民：你有責任保障自己孩子的安全，有權決定使用不使用，政府不會因而不提供某些遊樂設施。」</p>
 							</div>
 							<div class="column">
-	            				<div class="img-wrapper">
-	            					<img src="./images/article/img_8.png">
-	            					<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
+								<p>本地的管理者不是沒見過新穎遊樂場設計。在那些沒有孩子聲音的會議上，間中有人分享「我在新加坡/日本/美國見過，我帶孩子玩過」，但要是放在本地遊樂場的話，他們會說：「香港家長一定不能﹗」</p>
+								<p>袁漢昌說：「他們覺得香港家長一定會投訴。但我覺得這種投射，跟現代家長對遊樂場的理解，是有差異的。」</p>
+							</div>
+	            				<div class="img-wrapper block-img-big">
+	            					<a href="./images/article/img_6.jpg" class="gallery" title="香港公園有本港僅存的遊樂場沙池。">View Image</a>
+	            					<img src="./images/article/img_6.jpg">
+	            					<p class="img-caption"><span class="sp sp-img-caption"></span>香港公園有本港僅存的遊樂場沙池。</p>
 	            				</div>
-							</div>
 						</article>
 					</div>
 					<div id="article-1-7">
 						<article class="content columns clearfix">
-            				<div class="title-red"><h2><span class="number">1.7</span>教人忍不住搬出麥兜語錄</h2></div>
+            				<div class="title-red"><h2><span class="number">1.6</span>香港公園事件：還我長滑梯</h2></div>
 	            			<div class="column">
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣	子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，	樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+								<p>今年四月，香港公園四米高的長滑梯因為零件損毀而拆卸，有家長動員網上聯署，要求原址重置──因為那已是香港公共遊樂場裏碩果僅存的長滑梯了。風頭火勢，康文署邀袁漢昌提供意見，劈頭便問：「為什麼家長那樣緊張這條長滑梯？」</p>
+								<p>「我答，你們都拆了很多，只是之前沒多少人知道罷，其實你們有沒有留意，香港家長對公共空間的要求提高了？」袁漢昌說。</p>
 							</div>
 							<div class="column">
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣	子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，	樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+								<p>他指出，新設施使用數年後折舊，往往便翻出另一頁「遊樂場血淚史」，因為管理者有權決定維修或拆卸。「所以管理者很需要遊戲教育，因為他們要幫忙維護遊樂場的遊戲價值，否則再精彩的東西，幾年後亦只會變回『執藥』式組件。」</p>
+								<p>「而家長也要懂得發聲，對好的遊樂設施正面評價，讓業界的有心人得到支持，夠膽為小朋友爭取。要是見到好的你不說出來，管理者又只聽到家長投訴這個不安全那個髒，那末我們只能回歸那些單一不好玩的遊樂場『套餐』。」</p>
 							</div>
 						</article>
 					</div>
-					<div id="article-1-8">
-						<article class="content columns clearfix">
-            				<div class="title-red"><h2><span class="number">1.8</span>教人忍不住搬出麥兜語錄</h2></div>
-	            			<div class="column">
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣	子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，	樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-							</div>
-							<div class="column">
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣	子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，	樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-							</div>
-						</article>
+	            </div>
+	            <div id="long_content_2">
+	            	<div id="article-1-8" class="big-slider-wrapper">
+	            		<div class="top">
+							<h3 class="sp-title sp-title-2-1">大世界遊樂場<!-- <img class="responsive-img" data-responsimg-desktop="./images/1x/2-1-slider/title-2-1.png" src="./images/2x/2-1-slider/title-2-1.png" alt="大世界遊樂場"> --></h3>
+							<p>放眼世界，遊樂場有千百個模樣。</p>
+	            			<div class="slider-anchor clearfix">
+	            				<a href="#" data-group="4" class="sp sp-button-off">挪威</a>
+	            				<a href="#" data-group="5" class="sp sp-button-off">澳洲</a>
+	            				<a href="#" data-group="1" class="sp sp-button-on">西雅圖</a>
+	            				<a href="#" data-group="2" class="sp sp-button-off">帕羅奧圖</a>
+	            				<a href="#" data-group="3" class="sp sp-button-off">德國</a>
+	            			</div>
+	            			<div class="slider-count number sp sp-page"></div>
+	            		</div>
+	            		<div class="wrapper">
+	            			<div class="big-slider">
+	            				<div class="slide">
+	            					<img data-group="1" class="" src="./images/world-playground/seattle-1.jpg">
+	            					<!--<img data-group="1" class="mobile-only" src="./images/m-world-playground/seattle-1.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="1" class="" data-lazy="./images/world-playground/seattle-2.jpg">
+	            					<!--<img data-group="1" class="mobile-only" data-lazy="./images/m-world-playground/seattle-2.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="1" class="" data-lazy="./images/world-playground/seattle-3.jpg">
+	            					<!--<img data-group="1" class="mobile-only" data-lazy="./images/m-world-playground/seattle-3.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="1" class="" data-lazy="./images/world-playground/seattle-4.jpg">
+	            					<!--<img data-group="1" class="mobile-only" data-lazy="./images/m-world-playground/seattle-4.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="2" class="" data-lazy="./images/world-playground/magical-bridge-1.jpg">
+	            					<!--<img data-group="2" class="mobile-only" data-lazy="./images/m-world-playground/magical bridge-1.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="2" class="" data-lazy="./images/world-playground/magical-bridge-2.jpg">
+	            					<!--<img data-group="2" class="mobile-only" data-lazy="./images/m-world-playground/magical bridge-2.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="2" class="" data-lazy="./images/world-playground/magical-bridge-3.jpg">
+	            					<!--<img data-group="2" class="mobile-only" data-lazy="./images/m-world-playground/magical bridge-3.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="2" class="" data-lazy="./images/world-playground/magical-bridge-4.jpg">
+	            					<!--<img data-group="2" class="mobile-only" data-lazy="./images/m-world-playground/magical bridge-4.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="3" class="" data-lazy="./images/world-playground/wiesbaden-1.jpg">
+	            					<!--<img data-group="3" class="mobile-only" data-lazy="./images/m-world-playground/wiesbaden-1.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="3" class="" data-lazy="./images/world-playground/wiesbaden-2.jpg">
+	            					<!--<img data-group="3" class="mobile-only" data-lazy="./images/m-world-playground/wiesbaden-2.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="3" class="" data-lazy="./images/world-playground/wiesbaden-3.jpg">
+	            					<!--<img data-group="3" class="mobile-only" data-lazy="./images/m-world-playground/wiesbaden-3.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="3" class="" data-lazy="./images/world-playground/wiesbaden-4.jpg">
+	            					<!--<img data-group="3" class="mobile-only" data-lazy="./images/m-world-playground/wiesbaden-4.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="4" class="" data-lazy="./images/world-playground/norway-1.jpg">
+	            					<!--<img data-group="4" class="mobile-only" data-lazy="./images/m-world-playground/norway-1.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="4" class="" data-lazy="./images/world-playground/norway-2.jpg">
+	            					<!--<img data-group="4" class="mobile-only" data-lazy="./images/m-world-playground/norway-2.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="4" class="" data-lazy="./images/world-playground/norway-3.jpg">
+	            					<!--<img data-group="4" class="mobile-only" data-lazy="./images/m-world-playground/norway-3.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="4" class="" data-lazy="./images/world-playground/norway-4.jpg">
+	            					<!--<img data-group="4" class="mobile-only" data-lazy="./images/m-world-playground/norway-4.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="5" class="" data-lazy="./images/world-playground/syndey-1.jpg">
+	            					<!--<img data-group="5" class="mobile-only" data-lazy="./images/m-world-playground/syndey-1.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="5" class="" data-lazy="./images/world-playground/syndey-2.jpg">
+	            					<!--<img data-group="5" class="mobile-only" data-lazy="./images/m-world-playground/syndey-2.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="5" class="" data-lazy="./images/world-playground/syndey-3.jpg">
+	            					<!--<img data-group="5" class="mobile-only" data-lazy="./images/m-world-playground/syndey-3.jpg">-->
+	            				</div>
+	            				<div class="slide">
+	            					<img data-group="5" class="" data-lazy="./images/world-playground/syndey-4.jpg">
+	            					<!--<img data-group="5" class="mobile-only" data-lazy="./images/m-world-playground/syndey-4.jpg">-->
+	            				</div>
+	            			</div>
+	            		</div>
 	            	</div>
-		            <div id="article-1-9" class="duo-slider clearfix">
-		            	<h3><img class="desktop-only" src="./images/1x/title-1-9.png" alt="一樣的遊樂場 VS 不一樣的遊樂場"><img class="mobile-only" src="./images/2x/title-1-9.png" alt="一樣的遊樂場 VS 不一樣的遊樂場"></h3>
+		            <!-- <div id="article-1-8" class="duo-slider clearfix">
+		            	<h3><img class="responsive-img" data-responsimg-desktop="./images/1x/title-1-9.png" src="./images/2x/title-1-9.png" alt="一樣的遊樂場，不一樣的遊樂場"></h3>
 		            	<p class="label1" style="display: none">label1</p>
 		            	<p class="label2" style="display: none">label2</p>
 		            	<div class="d-slider-1" data-number="1">
@@ -256,110 +413,80 @@
 		            			<img data-label="1" src="./images/article/sliderpic-world-009.png">
 		            		</div>
 		            	</div>
-		            </div>
-	            </div>
-	            <div id="long_content_2">
+		            </div> -->
 	            	<div id="article-2-0">
+	            		<span class="sp sp-tape"></span>
 						<article class="content columns">
-							<h3><img class="desktop-only" src="./images/1x/pt2-title/flag.png"><img class="mobile-only" src="./images/2x/title-part2.png"></h3>
-							<div class="block-column">
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：</p>
-	            				<p>水是統童廣子果，會百記人公小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管		不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。	</p>
-	            				<p>腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+	            			<span class="sp sp-kid desktop-only"></span>
+							<h3 class="sp-title sp-title-flag">怎樣的遊樂場，有怎樣的孩子<!-- <img class="responsive-img" data-responsimg-desktop="./images/1x/pt2-title/flag.png" src="./images/2x/title-part2.png" alt="怎樣的遊樂場，有怎樣的孩子"> --></h3>
+							<div class="block-column clearfix">
+							<div class="column col1">
+								<div class="img-wrapper">
+									<img src="./images/susan.jpg">
+									<p class="img-caption"><span class="sp sp-img-caption"></span>Susan Goltsman於美國加州大學柏克萊分校任教遊樂空間專業。</p>
+								</div>
+							</div>
+							<div class="column col2">
+								<p>Susan Goltsman任教於美國加州大學柏克萊分校，專業範疇是遊樂空間。去年她來港主持共融遊樂場工作坊時，我逮了個機會問她如何評價本地遊樂場？「它們全都一樣，像直接從商品目錄中掏出來，有點悶，跟周遭的環境沒有很強的聯繫……」她輕笑一聲，續說﹕「我這樣說只是為了顯得有禮貌。」</p>
+								<p>這回，《端傳媒》越洋訪問了Susan Goltsman。</p>
+							</div>
 							</div>
 						</article>
 					</div>
 					<div id="article-2-0b">
 						<article class="content columns clearfix">
             				<div class="part">
-            					<div class="title-blue"><h2><span class="number">Q1 </span>教人忍不住搬出麥兜語錄?</h2></div>
-	            				<p>皮習一地。眼趣食族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+            					<div class="title-blue"><h2><!-- <span class="number">Q1</span> -->端：你認為怎樣才是一個好的遊樂場？</h2></div>
+	            				<p>Susan：我們必須知道，小孩子遊戲是正事，不是浪費時間。而戶外遊樂設施位於複雜多元的環境中，又較其他場所更有發掘空間。</p>
+	            				<p>好的遊樂場該包涵一系列體驗元素，包括刺激感官發展、社交互動、提供想像空間，和融入周遭的自然環境等。孩子可以玩水玩沙和拼砌，扮演各種角色，也可以主導自己的遊戲，絕對不只是一組爬上滑下的遊樂設施。空間再小，也可以豐富。</p>
             				</div>
             				<div class="part">
-            					<div class="title-blue"><h2><span class="number">Q2 </span>教人忍不住搬出麥兜語錄?</h2></div>
-	            				<p>皮習一地。眼趣食族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p class="highlight-blue">皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+            					<div class="title-blue"><h2><!-- <span class="number">Q2</span> -->端：你如何看安全這元素？</h2></div>
+	            				<p>Susan：我們在設計上有很多安全標凖，但依循後，遊樂場依然可以刺激好玩。</p>
+	            				<p class="highlight-blue">必須明白，挑戰(challenge)和危害(hazard)是兩回事。危害是一口釘子露了出來，你不留意會被割傷。挑戰是讓孩子爬得很高，但同時提供足夠保護，讓他們決定是否嘗試。每個人都要學習面對風險，這也是遊樂場上的學習。</p>
+	            				<p>保養遊樂場對安全很重要，但如果你過分關注這一環，最後只會得到一式一樣的塑膠設施，因為它們太好保養了。有些人花很大力氣來保養哥爾夫球場，是因為明白它的價值；而遊樂場對人類發展而言，價值要比哥爾夫球場高得多。</p>
             				</div>
             				<div class="part">
-            					<div class="title-blue"><h2><span class="number">Q3 </span>教人忍不住搬出麥兜語錄?</h2></div>
-	            				<p>皮習一地。眼趣食族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+            					<div class="title-blue"><h2><!-- <span class="number">Q3</span> -->端：不同文化對安全二字，有很不同的演繹吧？</h2></div>
+	            				<p>Susan：這絕對因文化和環境而異。幾年前我在巴勒斯坦參與興建遊樂場，發現防止兒童從遊樂場跑到街上很重要，否則孩子可能會吃子彈。至於在香港和中國，我發現人們特別不喜歡孩子弄髒。</p>
             				</div>
             				<div class="part">
-            					<div class="title-blue"><h2><span class="number">Q4 </span>教人忍不住搬出麥兜語錄?</h2></div>
-	            				<p>皮習一地。眼趣食族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+            					<div class="title-blue"><h2><!-- <span class="number">Q4</span> -->端：你說香港家長不喜歡髒，可有親身體會？</h2></div>
+	            				<p>Susan：某年我在海洋公園看到一個大型噴水池，在美英等地那種地方定必好玩透頂，孩子會跑進去弄濕自己。但人們告訴我，香港人才不會那樣。我在香港幾乎找不到能挖沙和玩水的遊樂場，沒有大自然元素。這樣確實不會弄髒，但孩子本來就該玩得髒兮兮，現有的遊樂環境顯然不足。</p>
 	            				<div class="img-wrapper">
-	            					<img src="./images/article/img_6.png">
-	            					<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
-	            				</div>
-	            				<div class="img-wrapper">
-	            					<img src="./images/article/img_7.png">
-	            					<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
+	            					<a href="./images/article/img_7.jpg" class="gallery">View Image</a>
+	            					<img src="./images/article/img_7.jpg">
+	            					<!-- <p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p> -->
 	            				</div>
             				</div>
             				<div class="part">
-            					<div class="title-blue"><h2><span class="number">Q5 </span>教人忍不住搬出麥兜語錄?</h2></div>
-	            				<p>皮習一地。眼趣食族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+            					<div class="title-blue"><h2><!-- <span class="number">Q5</span> -->端：你對香港的遊樂場管理有何體會？</h2></div>
+	            				<p>Susan：太多管理、太多規則。譬如，大人為何認為滑梯只能滑下，不能爬？</p>
+	            				<p>管理者有很多擔心，但其實只要重視遊戲，一定找到解決方法。管理者是要服務人們，不是倒過來限制孩子的需要。</p>
             				</div>
             				<div class="part">
-            					<div class="title-blue"><h2><span class="number">Q6 </span>教人忍不住搬出麥兜語錄?</h2></div>
-	            				<p>皮習一地。眼趣食族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p class="highlight-blue">皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
+            					<div class="title-blue"><h2><!-- <span class="number">Q6</span> -->端：如果說遊樂場反映一個社會如何看孩子，你從香港的遊樂場看到什麼？</h2></div>
+	            				<p>Susan：毫無疑問，遊樂場告訴你一個社會的價值系統，就像一個課室如果有點亂，到處都是小朋友的創作，很多活動在進行，那麼裏頭必定有一位以孩子為中心的老師，關心孩子真正的學習和自我表達。如果，你走進的課室完美地整潔，老師在講台上說書，那是很單向的教育方式。</p>
+	            				<p class="highlight-blue">香港的遊樂場，反映了政府想把孩子都留在指定地方玩，為了自己方便，所以到處放相同的東西，他們關心維修多於真正的遊戲。</p>
+	            				<p>有怎樣的遊樂場，就有怎樣的孩子，所以更要好好投資。地球上有些地方的人只想要麵包，有塑膠遊樂設施已經夠好，但你們老早就該超越這階段。</p>
             				</div>
 						</article>
 	            	</div>
-	            	<div id="article-2-1" class="big-slider-wrapper">
-	            		<div class="top">
-							<h3><img class="desktop-only" src="./images/1x/2-1-slider/title-2-1.png"><img class="mobile-only" src="./images/2x/2-1-slider/title-2-1.png"></h3>
-	            			<div class="slider-anchor clearfix">
-	            				<a href="#" data-group="4" class="sp sp-button-off">挪威</a>
-	            				<a href="#" data-group="1" class="sp sp-button-on">澳洲</a>
-	            				<a href="#" data-group="2" class="sp sp-button-off">美國</a>
-	            				<a href="#" data-group="3" class="sp sp-button-off">德國</a>
-	            			</div>
-	            			<div class="slider-count number sp sp-page"></div>
-	            		</div>
-	            		<div class="wrapper">
-	            			<div class="big-slider">
-	            				<img data-group="1" src="./images/playground1.jpg">
-	            				<img data-group="2" src="./images/playground2.jpg">
-	            				<img data-group="2" src="./images/playground4.jpg">
-	            				<img data-group="3" src="./images/playground3b.jpg">
-	            				<img data-group="4" src="./images/playground5.jpg">
-	            			</div>
-	            		</div>
-	            	</div>
-	            	<div id="article-2-2">
+	            	<div id="article-2-1">
 						<article class="content clearfix">
-							<h3><img class="desktop-only" src="./images/1x/title-2-2.png"><img class="mobile-only" src="./images/2x/title-2-2.png"></h3>
+							<h3 class="sp-title sp-title-2-2">香港有不一樣的遊樂場嗎？<!-- <img class="responsive-img" data-responsimg-desktop="./images/1x/title-2-2.png" src="./images/2x/title-2-2.png" alt="香港有不一樣的遊樂場嗎？"> --></h3>
 							<div class="block-column">
+								<p>看了世界各地的好東西，難免要問，香港究竟有沒有？</p>
+								<p>據說，還有一些。</p>
+								<p>譬如觀塘海濱公園遊樂場有齊備的感官遊戲，包括香港地買少見少的氹氹轉。西九龍圓方的天台遊樂場引入歐洲式設施，提升挑戰性，也開闊玩法的想像。將軍澳寶康公園遊樂場集合多元化元素，滿足不同能力的小朋友。油塘大本型天台遊樂場試圖打破「設施才是遊戲」的框框，是讓遊戲融入環境的新嘗試。</p>
+								<p>我們綜合專家和網上家長的心水推介，挑出幾個「滄海遺珠」帶孩子試玩，也沿路聆聽孩子對好玩遊樂場的訴求。</p>
+								<p>說到底：他們才是真正用家。</p>
 								<div class="video">
-            						<video width="100%" controls>
-									  <source src="./Playground_1611-Initium_480p.mp4" type="video/mp4">
-									  Your browser does not support HTML5 video.
-									</video>
-									<a href="#" class="play-button">play</a>
+									<video id="video_2" class="video-js" poster="./images/2x/video2_ph.jpg">
+					                  <source src=""  type="video/mp4">
+					                </video>
 								</div>
-
-	            				<p>皮習一地。眼趣食農於、性國先，連走你苦如；把無死電子顯調的回期資濟得，手我麗條工感，的道風我外親出；斷關和童個雜形半正十知：</p>
-	            				<p>水是統童廣子果，會百記人公	小一工到們供稱主他文。存家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文	在一處？到總又；樣平對計上一老女：種懷童分他小未！家到廣該念兒弟！費族一石加來日、數般點但溫好晚升。	</p>
-	            				<p>腦林首頭。樂上文旅得響期總子首詩，辦土管不，樹果友位是動不長體，和人這去的先看文在一處？到總又；樣平對計上一老女：種懷童分他小未！</p>
 							</div>
-	            			<div class="img-wrapper">
-            					<img src="./images/article/img_9.png">
-	            				<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
-	            			</div>
-	            			<div class="img-wrapper">
-            					<img src="./images/article/img_10.png">
-	            				<p class="img-caption"><span class="sp sp-img-caption"></span>費族一石加來日、數般點但溫好晚升。</p>
-	            			</div>
 						</article>
 					</div>
 	            </div>
@@ -374,14 +501,23 @@
 					<div class="wrapper">
 					<div class="boy"></div>
 					</div>
-					<!-- <p>Loading..</p> -->
 				</div>
 			</div><!-- /pageload-overlay -->
 			<div class="hidden">
-				<img src="./images/kid/kid1A.png" /><img src="./images/kid/kid1B.png" /><img src="./images/kid/kid2A.png" /><img src="./images/kid/kid2B.png" /><img src="./images/kid/kid3A.png" /><img src="./images/kid/kid3B.png" /><img src="./images/kid/kid4A.png" /><img src="./images/kid/kid4B.png" /><img src="./images/kid/kid5A.png" /><img src="./images/kid/kid5B.png" /><img src="./images/kid/kid6A.png" /><img src="./images/kid/kid6B.png" />
+				<img src="./images/kids.png" />
+				<!-- <img src="./images/kid/kid1A.png" /><img src="./images/kid/kid1B.png" /><img src="./images/kid/kid2A.png" /><img src="./images/kid/kid2B.png" /><img src="./images/kid/kid3A.png" /><img src="./images/kid/kid3B.png" /><img src="./images/kid/kid4A.png" /><img src="./images/kid/kid4B.png" /><img src="./images/kid/kid5A.png" /><img src="./images/kid/kid5B.png" /><img src="./images/kid/kid6A.png" /><img src="./images/kid/kid6B.png" /> -->
 			</div>
 		</div><!-- /pagewrap -->
 		<script src="http://vjs.zencdn.net/5.0.2/video.js"></script>
 		<script src="./js/all.min.js"></script>
+		<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '', 'auto');
+      ga('send', 'pageview');
+  </script>
 	</body>
 </html>
