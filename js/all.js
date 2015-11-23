@@ -5,6 +5,7 @@
 		currentPage = 0,
 		player = null,
 		sptimer = null,
+		dev = false,
 		triggerLoading = pageWrap.find( 'a.pageload-link' ),
 		loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 600, easingIn : mina.easeinout, callback: function(){
 			$('body').trigger('animationEnd.loader');
@@ -123,32 +124,6 @@
   			slidesToScroll: 1
 		});
 
-		// $('.slider').slick({
-		// 	arrows: false,
-		// 	dots: false,
-		// 	fade: true, 
-		// 	autoplay: true
-		// });
-
-		// update label of slider
-		// var currSlide = '';
-		// $('.slider1').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-		// 	var i = nextSlide + 1;
-		// 	currSlide = $('.slider1').slick('getSlick').$slides[nextSlide];
-		// 	$('.label1').html( $(currSlide).data('label'));
-		// });
-		// currSlide = $('.slider1').slick('getSlick').$slides[0];
-		// $('.label1').html( $(currSlide).data('label'));
-
-		// currSlide = '';
-		// $('.slider2').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-		// 	var i = nextSlide + 1;
-		// 	currSlide = $('.slider2').slick('getSlick').$slides[nextSlide];
-		// 	$('.label2').html( $(currSlide).data('label'));
-		// });
-		// currSlide = $('.slider2').slick('getSlick').$slides[0];
-		// $('.label2').html( $(currSlide).data('label'));
-
 		// update slider count and highlight selected group name on change
 		$('.big-slider').on('afterChange', function(event, slick, currentSlide){
 			slide = $('.big-slider').slick('getSlick').$slides[currentSlide];
@@ -185,20 +160,18 @@
 			}
 		});
 	}
-
 	function init() {
-		var state = 0;
-		var timer = null;
+		var state = 0, timer = null;
 		$(triggerLoading).bind('click', function(e){
 				e.preventDefault();
 				loader.show();
 				timer = setInterval(function(){
 					state++;
-					state = state%12;
+					state = state%12; 
 					if(state == 0){
 						loader.hide();
 						clearInterval(timer);
-						timer = null;
+						timer = null; 
 					}
 					$('#icon').attr('class', 'state'+state);
 				}, 200);
@@ -208,7 +181,7 @@
 					pages.eq(currentPage).addClass('show');
 					$('body').addClass('loaded');
 					if(player){
-						videoHandler.play();
+						videoHandler.play(); 
 					}
 					else{
 						videoHandler.playnow = true;
