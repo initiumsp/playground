@@ -6,14 +6,15 @@ edit index.html
 * og tags
  * og:url
  * og:image
+
 compile js script if necessary
-- concat and then minify the js files below:
-/js/lib/snap.svg-min.js
-/js/lib/jquery-1.11.1.min.js
-/js/lib/svgLoader.js
-/js/lib/jquery.scrollTo.min.js
-/js/lib/slick.min.js
-/js/lib/masonry.pkgd.min.js
-/js/lib/jquery.responsImg.min.js
-/js/lib/jquery.colorbox-min.js
-/js/all.js
+
+installation
+1. npm install --global gulp
+Install package in your project
+2. npm install gulp jshint gulp-jshint gulp-order gulp-uglify gulp-rename gulp-concat gulp-notify gulp-livereload del gulp-watch --save-dev
+
+script compilation
+run following comand, the minified js file would be regenerated at /dist/js
+gulp
+

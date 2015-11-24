@@ -192,19 +192,21 @@ jQuery.responsImg=function(e,n){var r,i,t,o,a,s,u,c,l,d,w,f,p,g,v,m,h;return i={
 			id2: 'video_2',
 			playnow: false,
 			init: function(){
-				var $vid_obj = videojs(document.getElementById(this.id1), {"controls": false, "autoplay": false, "preload": "auto"}, function() {
+				var $vid_obj = videojs(document.getElementById(this.id1), {"controls": true, "autoplay": false, "preload": "auto"}, function() {
 				});
 				$vid_obj.ready(function(){
 				  var $video = $('#'+videoHandler.id1);
 				  var src = (mode == 'normal')? $video.data('v720') : ((mode == 'low')? $video.data('v480') : $video.data('v1080'));
 				  $("#video_1 video").attr("src",src);
 				  player = this;
-				  player.on('ended', function() {
-				    videoHandler.ended();
-				  });
-				  if(videoHandler.playnow){
-				  	this.play();
-				  }
+				  if (mode != 'low') {
+					  player.on('ended', function() {
+					    videoHandler.ended();
+					  });
+					  if(videoHandler.playnow){
+					  		videoHandler.play();
+					  }
+			  	  }
 				});
 			},
 			init2: function(){
@@ -358,7 +360,9 @@ jQuery.responsImg=function(e,n){var r,i,t,o,a,s,u,c,l,d,w,f,p,g,v,m,h;return i={
 					pages.eq(currentPage).addClass('show');
 					$('body').addClass('loaded');
 					if(player){
-						videoHandler.play(); 
+						if (mode != 'low') {
+							videoHandler.play(); 
+						}
 					}
 					else{
 						videoHandler.playnow = true;
